@@ -17,22 +17,9 @@ class TutorViewController: ViewController, UICollectionViewDataSource, UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setNavigationBarProperties()
         populateItems()
     }
     
-    
-    func setNavigationBarProperties() {
-        navigationController?.navigationBar.barTintColor = futbolWinColors.futbolWinBackgroundColor
-        navigationController?.navigationBar.tintColor = futbolWinColors.futbolWinTitleFontColor
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: futbolWinColors.futbolWinTitleFontColor]
-        
-        let tabImage = UIImage(named: "TranspWin6%.png")
-        let imageView = UIImageView(image: tabImage)
-        imageView.contentMode = .ScaleToFill
-        self.navigationItem.titleView = imageView
-           
-    }
     
     func populateItems() {
         let teacher1 = Teacher()
