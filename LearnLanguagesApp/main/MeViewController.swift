@@ -84,10 +84,20 @@ class MeViewController : ViewController, UICollectionViewDataSource, UICollectio
         cell.description1Label.text = self.items[indexPath.item].description1
         cell.description2Label.text = self.items[indexPath.item].description2
         
+//        let screenSize: CGRect = UIScreen.mainScreen().bounds
+//        cell.frame.size.width = screenSize.width - 50
+        
         cell.layer.borderColor = UIColor.grayColor().CGColor
         cell.layer.borderWidth = 2
         
         return cell
+    }
+    
+    
+    
+    @IBAction func clickSchedulleTutorial(sender: AnyObject) {
+        self.performSegueWithIdentifier("toSchedulleTutorialSegue", sender: self)
+        
     }
     
     

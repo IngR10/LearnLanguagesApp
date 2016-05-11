@@ -35,6 +35,7 @@
 		BC099D5E1CD9934300887BB0 /* PinkPanterProfile100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = BC099D5C1CD9934300887BB0 /* PinkPanterProfile100x100.png */; };
 		BC099D5F1CD9934300887BB0 /* WolverineProfile100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = BC099D5D1CD9934300887BB0 /* WolverineProfile100x100.png */; };
 		BC099D611CD9944B00887BB0 /* JameBondProfile100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = BC099D601CD9944B00887BB0 /* JameBondProfile100x100.png */; };
+		BC0EB9F61CE25EC600421491 /* SchedulleTutorialMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EB9F51CE25EC600421491 /* SchedulleTutorialMenuViewController.swift */; };
 		BCC4DF971CDC3695006D8909 /* MeHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4DF961CDC3695006D8909 /* MeHistory.swift */; };
 		BCC4DF991CDC497A006D8909 /* MeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC4DF981CDC497A006D8909 /* MeItemCell.swift */; };
 /* End PBXBuildFile section */
@@ -91,6 +92,7 @@
 		BC099D5C1CD9934300887BB0 /* PinkPanterProfile100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PinkPanterProfile100x100.png; path = images/PinkPanterProfile100x100.png; sourceTree = "<group>"; };
 		BC099D5D1CD9934300887BB0 /* WolverineProfile100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WolverineProfile100x100.png; path = images/WolverineProfile100x100.png; sourceTree = "<group>"; };
 		BC099D601CD9944B00887BB0 /* JameBondProfile100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JameBondProfile100x100.png; path = images/JameBondProfile100x100.png; sourceTree = "<group>"; };
+		BC0EB9F51CE25EC600421491 /* SchedulleTutorialMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchedulleTutorialMenuViewController.swift; path = main/SchedulleTutorialMenuViewController.swift; sourceTree = "<group>"; };
 		BCC4DF961CDC3695006D8909 /* MeHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeHistory.swift; path = vo/MeHistory.swift; sourceTree = "<group>"; };
 		BCC4DF981CDC497A006D8909 /* MeItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeItemCell.swift; path = main/MeItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +207,7 @@
 				BC04DF1D1CDAFB7C00CE90B5 /* TutorDetailViewController.swift */,
 				BC04DF1F1CDBADA200CE90B5 /* MeViewController.swift */,
 				BCC4DF981CDC497A006D8909 /* MeItemCell.swift */,
+				BC0EB9F51CE25EC600421491 /* SchedulleTutorialMenuViewController.swift */,
 			);
 			name = main;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC04DF201CDBADA200CE90B5 /* MeViewController.swift in Sources */,
+				BC0EB9F61CE25EC600421491 /* SchedulleTutorialMenuViewController.swift in Sources */,
 				BC099D531CD9863C00887BB0 /* Teacher.swift in Sources */,
 				BCC4DF971CDC3695006D8909 /* MeHistory.swift in Sources */,
 				BC099D421CD9803700887BB0 /* TutorViewController.swift in Sources */,
